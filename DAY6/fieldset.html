@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>fieldset</title>
+        <style>
+            fieldset{
+                border: 2px solid blueviolet;
+                padding: 20px;
+                margin: 20px 0;
+                
+            }
+
+            legend{
+                color: rgb(127, 47, 255);
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Different forms using fieldset Tag</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="user_name"><br><br>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="user_email">
+        </fieldset>
+        <br><br>
+        <fieldset style="display: grid; grid-template-columns:auto auto;">
+            <legend>
+                Credit Card Information
+            </legend>
+            <label for="card">Credit Card: </label>
+            <input type="text" id = "card" name="credit_card">
+            <label for="expiry_date">Expiry Date: </label>
+            <input type="date" id = "expiry_date" name="expiry_date">
+        </fieldset>
+
+
+    </body>
+</html>

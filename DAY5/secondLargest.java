@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SecondLargest {
+public class secondLargest {
     static int getSecondLargest(int arr[]){
         int arrLen = arr.length;
 
